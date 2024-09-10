@@ -1,7 +1,7 @@
 import "./App.css";
-import Task2 from "./components/task2/task-2";
-import Task1 from "./components/task-1/task-1";
-import Task3 from "./components/task3/task-3";
+import Task2 from "./lulz/task2/task-2";
+import Task1 from "./lulz/task-1/task-1";
+import Task3 from "./lulz/task3/task-3";
 const App = () => {
   return (
     <div>
