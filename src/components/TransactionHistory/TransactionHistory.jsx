@@ -1,7 +1,6 @@
-import tab from "../../jsons/table.json";
 import s from "./task3.module.css";
 
-const TransactionHistory = () => {
+const TransactionHistory = ({ items }) => {
   return (
     <div className={s.wrap}>
       <table>
@@ -13,7 +12,7 @@ const TransactionHistory = () => {
           </tr>
         </thead>
         <tbody>
-          {tab.map((info) => (
+          {items.map((info) => (
             <tr key={info.id}>
               <td>{info.type}</td>
               <td>{info.amount}</td>
