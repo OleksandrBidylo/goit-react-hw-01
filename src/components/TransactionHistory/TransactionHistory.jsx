@@ -1,7 +1,7 @@
 import tab from "../../jsons/table.json";
 import s from "./task3.module.css";
 
-const Task3 = () => {
+const TransactionHistory = () => {
   return (
     <div className={s.wrap}>
       <table>
@@ -26,4 +26,4 @@ const Task3 = () => {
   );
 };
 
-export default Task3;
+export default TransactionHistory;

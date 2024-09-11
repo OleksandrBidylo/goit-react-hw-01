@@ -1,7 +1,7 @@
 import s from "./task1.module.css";
 import userData from "/src/jsons/task1.json";
 
-const task1 = () => {
+const Profile = () => {
   return (
     <div className={s.container}>
       <div className={s.infowrap}>
@@ -29,4 +29,4 @@ const task1 = () => {
   );
 };
 
-export default task1;
+export default Profile;
